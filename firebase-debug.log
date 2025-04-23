@@ -1,0 +1,58 @@
+[debug] [2025-04-23T04:14:57.866Z] ----------------------------------------------------------------------
+[debug] [2025-04-23T04:14:57.876Z] Command:       C:\Program Files\nodejs\node.exe C:\cu\year_1_2\SE\ass\Firebase\fireBase\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-23T04:14:57.876Z] CLI Version:   14.2.0
+[debug] [2025-04-23T04:14:57.877Z] Platform:      win32
+[debug] [2025-04-23T04:14:57.877Z] Node Version:  v20.17.0
+[debug] [2025-04-23T04:14:57.877Z] Time:          Wed Apr 23 2025 11:14:57 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-04-23T04:14:57.877Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-23T04:14:58.107Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-23T04:14:58.107Z] > authorizing via signed-in user (6733044021@student.chula.ac.th)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-23T04:14:58.117Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-23T04:14:58.117Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-23T04:14:58.118Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-23T04:14:58.122Z] [hub] writing locator at C:\Users\palm1\AppData\Local\Temp\hub-fir-se-29ade.json
+[debug] [2025-04-23T04:14:58.142Z] Checked if tokens are valid: false, expires at: 1745316107607
+[debug] [2025-04-23T04:14:58.142Z] Checked if tokens are valid: false, expires at: 1745316107607
+[debug] [2025-04-23T04:14:58.143Z] > refreshing access token with scopes: []
+[debug] [2025-04-23T04:14:58.144Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-04-23T04:14:58.144Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-04-23T04:14:58.347Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-04-23T04:14:58.348Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-04-23T04:14:58.354Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-se-29ade/sites 
+[debug] [2025-04-23T04:14:59.319Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-se-29ade/sites 200
+[debug] [2025-04-23T04:14:59.320Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-se-29ade/sites {"sites":[{"name":"projects/fir-se-29ade/sites/fir-se-29ade","defaultUrl":"https://fir-se-29ade.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-23T04:14:59.320Z] Checked if tokens are valid: true, expires at: 1745385297348
+[debug] [2025-04-23T04:14:59.320Z] Checked if tokens are valid: true, expires at: 1745385297348
+[debug] [2025-04-23T04:14:59.320Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-se-29ade/webApps/-/config [none]
+[debug] [2025-04-23T04:15:00.378Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-se-29ade/webApps/-/config 200
+[debug] [2025-04-23T04:15:00.378Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-se-29ade/webApps/-/config {"projectId":"fir-se-29ade","storageBucket":"fir-se-29ade.firebasestorage.app","apiKey":"AIzaSyAaEmsdSTdfGX10fzTyQOn2GCO1IGhREhA","authDomain":"fir-se-29ade.firebaseapp.com","messagingSenderId":"422700056992"}
+[debug] [2025-04-23T04:15:00.382Z] Checked if tokens are valid: true, expires at: 1745385297348
+[debug] [2025-04-23T04:15:00.382Z] Checked if tokens are valid: true, expires at: 1745385297348
+[debug] [2025-04-23T04:15:00.383Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-se-29ade [none]
+[debug] [2025-04-23T04:15:01.037Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-se-29ade 200
+[debug] [2025-04-23T04:15:01.037Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-se-29ade {"projectId":"fir-se-29ade","projectNumber":"422700056992","displayName":"firebase-SE","name":"projects/fir-se-29ade","resources":{"hostingSite":"fir-se-29ade"},"state":"ACTIVE","etag":"1_7184abd6-434d-4d10-9606-70b949766bd9"}
+[info] i  hosting[fir-se-29ade]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[fir-se-29ade]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-23T04:15:01.061Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:04:15:41 +0000] "GET / HTTP/1.1" 200 385 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:04:15:41 +0000] \"GET / HTTP/1.1\" 200 385 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:04:15:41 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:04:15:41 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:04:15:41 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:04:15:41 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:04:15:41 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:04:15:41 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
